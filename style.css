@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+body {
+    background-color: #7ecdc9;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/*.centered-welcome {
+    position: absolute;
+    top: 70%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}*/
+
+#hand-down {
+  display: block;
+  text-align: center;
+  margin-top: 35px;
+}
+
+#hand-down i{
+  font-size: 70px;
+  color: #fff;
+  animation: pulse 2s linear infinite;
+}
+
+#welcome-title h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.arrow-welcome-page {
+    position: absolute;
+    bottom: 20px;
+    right: 20%;
+    color: aliceblue;
+    animation: pulse 2s linear infinite;
+}
+.arrow-welcome-page i {
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.welcome1-margin {
+  padding: 0;
+}
+
+.link-circle i {
+  color: #d13ad1;
+  font-size: 15px;
+}
+
+body#welcome1 {
+  background-color: #fff;
+}
+
+h1 {
+  color: #452a86;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-top: 60px;
+  margin-bottom: 45px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+}
+.section-text {
+  background-color: #fff;
+  padding: 20px 40px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+section img {
+  -webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+-webkit-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+.image-border {
+  -webkit-border-radius: 0 0 25px 25px;
+  border-radius: 0 0 25px 25px;
+}
+
+#my_button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 500px;
+  text-align: center;
+  padding: 10px 20px;
+  /*background-color: #d13ad1;*/
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to left, #d13ad1, #7ecdc9);
+  width: 500px;
+  color: white;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    transform: scale(1.1);
+}
+
+#my_button a {
+  color: #fff;
+  font-size: 3rem;
+}
+
+@keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    50% {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+
+  
+  @keyframes pulse {
+    0% {
+      -moz-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    50% {
+      -moz-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  
+    100% {
+      -moz-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+   .contact-form {
+    margin-top: 90px;
+  }
+
+  #signup {
+    display: block;
+    margin: auto;
+  }
